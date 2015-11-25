@@ -1,0 +1,23 @@
+<template name="main">
+
+
+<ul id="slide-out" class="side-nav blue-grey darken-2">
+
+    <li><a href="{{pathFor route='work'}}" class="brown-text text-lighten-5">Work Experience</a></li>
+    <!--The proffessional qualification-->
+    <li><a href="{{pathFor route='achieve'}}" class="brown-text text-lighten-5">Professional Qualification</a></li>
+    <!--the academic-->
+    <li><a href="{{pathFor route='academic'}}" class="brown-text text-lighten-5">Academic Qualifications</a></li>
+    
+    
+    
+</ul>
+<div class="navbar-fixed">
+ <div class="header">
+      <h5>Grace Wangui</h5>
+    <a href="#" data-activates="slide-out" class="button-collapse waves-effect waves-circle"><i class="small mdi-navigation-menu"></i></a>
+  </div>
+</div>
+{{>yield}}
+
+</template>
