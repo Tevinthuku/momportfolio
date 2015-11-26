@@ -28,3 +28,4 @@ Router.configure({
     loadingTemplate: 'loading'
 });
 
+Router.route('/other');
