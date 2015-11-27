@@ -17,5 +17,9 @@ if (Meteor.isClient) {
  
 }); 
 
+ Template.bio.onRendered(function () {
+$('select').material_select();
+ 
+});
 
 }

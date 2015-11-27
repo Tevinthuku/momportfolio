@@ -29,3 +29,5 @@ Router.configure({
 });
 
 Router.route('/other');
+
+Router.route('/bio');
